@@ -1,0 +1,87 @@
+/* Portfolio Section */
+.portfolio {
+  padding: 70px 40px;
+  display: grid;
+  margin-top: 0rem;
+  gap: 2rem;
+  background: linear-gradient(135deg, #081214, #1f636e);
+}
+
+.portfolio-heading h1 {
+  font-size: 2.8rem;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #1c1c1c;
+}
+
+.portfolio-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.my-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.my-col {
+  flex: 1 1 340px;
+  max-width: 460px; /* bigger cards */
+}
+
+.my-card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border: 2px solid #a18ce8; /* subtle border instead of shadow */
+}
+
+.my-card:hover {
+  transform: translateY(-10px);
+  border-color: #dd9ed6; /* highlight on hover */
+}
+.image img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #754981;
+}
+
+.greet-heading {
+  font-size: 1.6rem; /* slightly bigger text */
+  margin: 18px;
+}
+
+.blue-text {
+  color: #101011;
+}
+
+.small-para {
+  margin: 0 18px 18px;
+  font-size: 1rem;
+}
+
+.project-links {
+  padding: 0 18px 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #aa59ab;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: #ff6600;
+}
+
+
